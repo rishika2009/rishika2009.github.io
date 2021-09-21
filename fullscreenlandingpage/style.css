@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* HEADER */
+#showcase {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/27/13/00/hands-2178566_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 20px;
+    width: 70%;
+}
+
+#showcase .btn {
+    text-decoration: none;
+    border: 2px solid #34495e;
+    padding: 10px 20px;
+    color: #34495e;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .btn:hover {
+    background: #34495e;
+    color: #ecf0f1;
+}
+
+/* SECTION */
+#section-a {
+    padding: 20px;
+    background: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #ecf0f1;
+    color: #34495e;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: #34495e;
+    color: #ecf0f1;
+}
+
+#section-c .box-2 {
+    background: #bdc3c7;
+    color: #34495e;
+}
