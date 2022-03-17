@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FC427B;
+    line-height: 1.6;
+}
+
+/* HEADER */
+#showcase {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/14/14/19/background-1979573_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 20px;
+    width: 70%;
+}
+
+#showcase .btn {
+    text-decoration: none;
+    border: 2px solid #FC427B;
+    padding: 10px 20px;
+    color: #FC427B;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .btn:hover {
+    background: #fd79a8;
+    color: #fd79a8;
+}
+
+/* SECTION */
+#section-a {
+    padding: 20px;
+    background: #fd79a8;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #ffffff;
+    color: #FC427B;
+    text-align: left;
+    width: 80%;
+    margin-left: 20px;
+}
+
+#section-c {
+    display: flex;
+    margin-left: 20px;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: #fd79a8;
+    color: #ffffff;
+}
+
+#section-c .box-2 {
+    background: #FC427B;
+    color: #ffffff;
+}
+
+h2.cards {
+    text-align: center;
+}
